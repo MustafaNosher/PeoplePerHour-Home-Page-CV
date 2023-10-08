@@ -1,0 +1,58 @@
+ .resume-body {
+     background-color: whitesmoke;
+     display: flex;
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     border: black;
+     border: 2px solid black
+ }
+
+ .left-section {
+     flex: 2;
+     padding: 20px;
+     margin-top: 100px;
+ }
+
+ .right-section {
+     flex: 1;
+     padding: 20px;
+     background-color: lightblue;
+     text-align: center;
+ }
+
+ .persnol-info {
+     color: black;
+     margin-top: 420px;
+     font-weight: bolder;
+     text-align: left;
+ }
+
+
+ #name {
+     position: absolute;
+ }
+
+ .profile {
+     height: 150px;
+     width: 150px;
+     border: 2px solid black;
+ }
+
+ hr {
+     border-color: navy;
+ }
+
+ h2 {
+     text-decoration: underline;
+     font-style: italic;
+ }
+
+ h1 {
+     text-decoration: underline;
+ }
+
+ .skills {
+     font-weight: bold;
+     padding-right: 20px;
+ }
