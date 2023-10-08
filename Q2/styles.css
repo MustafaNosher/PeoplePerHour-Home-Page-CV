@@ -1,0 +1,176 @@
+body {
+    background-color: #f4f6f4;
+    font-family: "Open Sans", sans-serif;
+}
+
+.subnavbar {
+    background-color: white !important;
+    font-size: 0.76rem;
+    font-weight: 500;
+    color: rgb(91, 102, 120);
+
+}
+
+nav {
+    font-size: 0.84rem;
+    font-weight: 700;
+    background-color: #f4f5f6;
+    position: sticky !important;
+}
+
+#icon {
+    width: 200px;
+}
+
+.nav-link:hover {
+    color: rgb(255, 115, 0);
+}
+
+#search {
+    font-size: 0.84rem;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.vr {
+    color: rgba(0, 0, 0, 0.545);
+}
+
+
+#orange {
+    color: rgb(255, 115, 0);
+}
+
+
+.custom-font {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.profilePic {
+    border-radius: 50% !important;
+    margin-bottom: 10px;
+
+}
+
+.card-custom-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1px !important;
+}
+
+.card-custom-name {
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: rgb(110, 110, 110);
+
+}
+
+.Rating {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: rgb(110, 110, 110);
+}
+
+.Review {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(110, 110, 110);
+}
+
+.tags {
+    color: rgb(110, 110, 110);
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #C3C8D433;
+    display: inline-flex;
+    gap: 10px;
+    padding: 0px 10px;
+
+}
+
+.custom-popular {
+    color: rgb(110, 110, 110);
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif !important;
+    display: inline-flex;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 0 !important;
+}
+
+
+@media (max-width: 1700px) {
+    .maincontainer {
+        margin: 0 6%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .maincontainer {
+        margin: 0 4%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .maincontainer {
+        margin: 0 2%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .maincontainer {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #subline {
+        font-size: 1.18rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #mainline {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #mainline {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #mainline {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #mainline {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #search {
+        margin-top: 1.5rem;
+        margin-bottom: 0.1rem;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .y-mg {
+        margin: 0.2rem 0;
+    }
+}
